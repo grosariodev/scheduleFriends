@@ -7,14 +7,36 @@
 </head>
 <body>
     <style>
-        table, th, td{
+        /*Esto es para los estilos de la pagina*/
+        table{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        th, td{
             border: 1px solid black;
             text-align: left;
             padding: 10px;
+            border-radius: 10px;
+        }
+
+        h1{
+            text-align: center;
+            font-family:verdana;
+            font-size:300%;
+            color: darkgray;
+        }
+
+        .tableConteiner{
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
     </style>
     
-    <table style="width: 100%;">
+    <H1>scheduleFriends</H1>
+
+    <div class="tableConteiner">
+        <table style="width: 90%">
         <tr> <!-- Fila de encabezados -->
             <th>Hora</th>
            <th>Lunes</th>
@@ -42,6 +64,7 @@
            <td>Sevilla</td>
         </tr>
      </table>
+    </div>
      
 </body>
 </html>
