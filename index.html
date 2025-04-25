@@ -3,113 +3,51 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-   <title>Schedule Friends</title>
+   <title>ScheduleFriends - Organiza tu tiempo de estudio</title>
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
 </head>
 <body>
-   <!--Este es el div de la barra de navegacion-->
 
-   <nav class="navbar">
-      <div class="navbar-logo">
-         <a href="#home">SF</a>
+   <!-- This is Navbar Section -->
+
+   <header class="header">
+      <nav class="navbar container">
+         <div class="logo">
+            <a href="#home">SheduleFriends</a>
+         </div>
+
+         <!-- This is the hamburger button and it will work once I add the CSS and JS -->
+         <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+         </div>
+
+         <!-- The links of navbar -->
+         <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Inicio</a></li>
+            <li><a href="#about" class="nav-link">Sobre el Proyecto</a></li>
+            <li><a href="#participants" class="nav-link">Participantes</a></li>
+            <li><a href="#contact" class="nav-link">Contacto</a></li>
+         </ul>
+      </nav>
+
+      <!-- Finish of header section-->
+   </header>
+
+   <!-- Hero section -->
+
+   <section class="hero" id="home">
+      <!-- This class are necesary for css -->
+      <div class="hero-content container animate-on-scroll fade-in">
+         <h1>¡Bienvenido a ScheduleFriends!</h1>
+         <h2>Organiza tu tiempo de estudio y manten tu vida unirversitaria en orden.</h2>
+         <a href="#about" class="cta-button">Participar</a>
       </div>
-      <input type="checkbox" id="navbar-toggle" class="navbar-toggle">
-      <label for="navbar-toggle" class="navbar-toggle-label">
-         <i class="fas fa-bars"></i>
-      </label>
-
-      <ul class="navbar-menu">
-         <li><a href="#about">ABOUT</a></li>
-         <li><a href="#team"><i class="fas fa-user"></i> TEAM</a></li>
-         <li><a href="#work"><i class="fas fa-th"></i> WORK</a></li>
-         <li><a href="#pricing"><i class="fas fa-usd"></i> PRICING</a></li>
-      </ul>
-   </nav>
+   </section>
 
 
-   <!--Encabezado-->
-   <main>
-      <section id="home">
-   <div class="header">
-      <h1>Schedule Friends</h1>
-      <B><P>Inspirado por el mejor team de UNAPEC</P></B>
-   </div>
-      </section>
-
-      <section id="about">
-         <div class="about-section">
-            <h2>CODERS TEAM</h2>
-            <P>Este es el mejor team de UNAPEC, estamos en ingenieria y cambiaremos el mundo</P>
-            <p>Nuestro lema es nunca rendirse :)</p>
-         </div>
-      </section>
-      <section id="team">
-         <h2 style="text-align: center;">Our Team</h2>
-         <div class="row">
-            <div class="column">
-               <div class="card">
-                  <img src="assets/img/aellen.jpg" alt="aellen" style="width: 100%;">
-                  <div class="container">
-                     <h2>Aellen</h2>
-                     <p class="title">Compañera</p>
-                     <p>Aellen una de las mas inteligentes.</p>
-                     <p><button class="button">Contact</button></p>
-                  </div>
-               </div>
-            </div>
-      
-            <div class="column">
-               <div class="card">
-                  <img src="assets/img/aellen.jpg" alt="aellen" style="width: 100%;">
-                  <div class="container">
-                     <h2>Aellen</h2>
-                     <p class="title">Compañera</p>
-                     <p>Aellen una de las mas inteligentes.</p>
-                     <p><button class="button">Contact</button></p>
-                  </div>
-               </div>
-            </div>
-      
-            <div class="column">
-               <div class="card">
-                  <img src="assets/img/aellen.jpg" alt="aellen" style="width: 100%;">
-                  <div class="container">
-                     <h2>Aellen</h2>
-                     <p class="title">Compañera</p>
-                     <p>Aellen una de las mas inteligentes.</p>
-                     <p><button class="button">Contact</button></p>
-                  </div>
-               </div>
-            </div>
-      
-            <div class="column">
-               <div class="card">
-                  <img src="assets/img/aellen.jpg" alt="aellen" style="width: 100%;">
-                  <div class="container">
-                     <h2>Aellen</h2>
-                     <p class="title">Compañera</p>
-                     <p>Aellen una de las mas inteligentes.</p>
-                     <p><button class="button">Contact</button></p>
-                  </div>
-               </div>
-            </div>
-      
-            <div class="column">
-               <div class="card">
-                  <img src="assets/img/aellen.jpg" alt="aellen" style="width: 100%;">
-                  <div class="container">
-                     <h2>Aellen</h2>
-                     <p class="title">Compañera</p>
-                     <p>Aellen una de las mas inteligentes.</p>
-                     <p><button class="button">Contact</button></p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!--Abajo se ponen mas sections-->
-   </main>
-
+   
 </body>
 </html>
