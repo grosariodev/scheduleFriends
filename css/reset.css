@@ -1,0 +1,22 @@
+/*
+This file is used to reset all the default styles for different browsers, so that the web page looks the same in all browsers
+*/
+
+/*Removes default margins and paddings from all elements,
+  and makes width/height include padding and border.
+  This makes layouts more predictable and consistent across browsers.*/
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; /* This is for smooth scroll*/
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+}
